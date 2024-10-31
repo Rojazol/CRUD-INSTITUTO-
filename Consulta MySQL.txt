@@ -1,0 +1,12 @@
+create database instituto_db
+
+use instituto_db
+
+create table Alumnos (
+id int (11) AUTO_INCREMENT primary key,
+dni int (8),
+nombre varchar(255),
+apellido(255),
+telefono int(12)
+)
+
